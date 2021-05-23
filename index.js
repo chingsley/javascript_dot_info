@@ -17,10 +17,10 @@ const { ValidationError, NotFoundError } = require("./errors/customErrors");
 }
 
 {
-  try {
-    throw new NotFoundError("result not found!!!");
-  } catch (error) {
-    console.log(error.message, error.status, error.name);
-    console.log(error instanceof NotFoundError);
-  }
+  // try {
+  //   throw new NotFoundError("result not found!!!");
+  // } catch (error) {
+  //   console.log(error.message, error.status, error.name);
+  //   console.log(error instanceof NotFoundError);
+  // }
 }

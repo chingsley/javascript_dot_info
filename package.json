@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon index.js",
-    "joi": "nodemon ./joi"
+    "joi": "nodemon ./joi",
+    "arrays": "nodemon ./arrays"
   },
   "keywords": [],
   "author": "",
