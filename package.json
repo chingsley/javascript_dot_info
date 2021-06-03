@@ -6,7 +6,8 @@
   "scripts": {
     "start:dev": "nodemon index.js",
     "joi": "nodemon ./joi",
-    "arrays": "nodemon ./arrays"
+    "arrays": "nodemon ./arrays",
+    "moment": "nodemon ./moment"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
-    "@hapi/joi-date": "^2.0.1"
+    "@hapi/joi-date": "^2.0.1",
+    "moment": "^2.29.1"
   }
 }
