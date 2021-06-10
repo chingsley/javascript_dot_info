@@ -9,17 +9,24 @@
     "arrays": "nodemon ./arrays",
     "clean-code": "nodemon ./clean-code",
     "objects": "nodemon ./objects",
-    "moment": "nodemon ./moment"
+    "moment": "nodemon ./moment",
+    "design-patterns:creational:singleton": "nodemon -r esm ./design-patterns/creational/singleton",
+    "design-patterns:creational:factory": "nodemon -r esm ./design-patterns/creational/factory",
+    "design-patterns:structural:facade": "nodemon -r esm ./design-patterns/structural/facade",
+    "design-patterns:structural:decorator": "nodemon -r esm ./design-patterns/structural/decorator",
+    "design-patterns:behavioural:observer": "nodemon -r esm ./design-patterns/behavioural/observer"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "esm": "^3.2.25",
     "nodemon": "^2.0.7"
   },
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "@hapi/joi-date": "^2.0.1",
+    "axios": "^0.21.1",
     "moment": "^2.29.1"
   }
 }
