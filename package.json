@@ -14,7 +14,9 @@
     "design-patterns:creational:factory": "nodemon -r esm ./design-patterns/creational/factory",
     "design-patterns:structural:facade": "nodemon -r esm ./design-patterns/structural/facade",
     "design-patterns:structural:decorator": "nodemon -r esm ./design-patterns/structural/decorator",
-    "design-patterns:behavioural:observer": "nodemon -r esm ./design-patterns/behavioural/observer"
+    "design-patterns:behavioural:observer": "nodemon -r esm ./design-patterns/behavioural/observer",
+    "design-patterns:module-pattern": "nodemon -r esm ./design-patterns/module-pattern",
+    "closures": "nodemon -r esm ./closures"
   },
   "keywords": [],
   "author": "",
